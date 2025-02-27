@@ -22,6 +22,6 @@ if '%errorlevel%' NEQ '0' (
     CD /D "%~dp0"
 
 :: Run the Python script as high priority
-start "" /b /realtime python "%~dp0lunar.py"
+start "" /b /realtime python "%~dp0InGack.py"
 
 pause >nul
